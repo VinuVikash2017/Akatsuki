@@ -1,6 +1,3 @@
-data()
-data(rock)
-setwd("E:/r prog")
 
 
 rock
@@ -10,7 +7,7 @@ write.csv(rock,'ROCK.csv')
 gg=read.csv("ROCK.csv")
 gg
 mean(gg$perm)
-k=data.frame(gg)
+k=data.frame(
 k
 m=median(rock$peri)
 m
